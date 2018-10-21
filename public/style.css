@@ -1,0 +1,56 @@
+h1
+{
+    color: orange;
+}
+
+
+#carrousel{
+
+    position:relative;
+
+    height:200px;
+
+    width:700px;
+
+    margin:auto;
+
+}
+
+#carrousel ul li{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+}
+
+.previous{
+    position :absolute;
+    top:300px;
+    left:600px;
+    width:800px;
+    width:200px;
+    font-size:3em;
+    color:orange;
+	z-index:3;
+
+}
+
+.next{
+    position :absolute;
+    top:300px;
+    left:1500px;
+    width:800px;
+    width:200px;
+    font-size:3em;
+    color:orange;
+    z-index:3;
+
+}
+
+.image{
+	border-radius: 10px;
+ 	border:5px solid black;
+ }
